@@ -1,0 +1,48 @@
+<!--
+  ____          _____           _ _                       _ 
+| __ ) _   _  | ____|_ __   __| | |_ ___ _ __ _ ____   _| |
+|  _ \| | | | |  _| | '_ \ / _` | __/ _ \ '__| '_ \ \ / / |
+| |_) | |_| | | |___| | | | (_| | ||  __/ |  | | | \ V /| |
+|____/ \__, | |_____|_| |_|\__,_|\__\___|_|  |_| |_|\_/ |_|
+       |___/       
+-->                                        
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Simple webhook sender</title>
+  <meta name="author" content="Endternvl">
+  <meta name="description" content="Really Simple Webhook Sender">
+  <meta name="keywords" content="discord,endternvl,webhook">
+  <meta name="title" content="Simple Discord Webhook Sender">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body>
+
+    <div id="header">
+      <h>Simple Discord Webhook Sender</h>
+    </div>
+    <div id="container">
+      <div class="center-align">
+        <p>Webhook Link:</p><input type='text' id="link" placeholder="Type Webhook URL here ex. https://discordapp.com/api/webhooks/462759446225879041/CX-NNGFq5zjht82fQSJUTN2Or2DGq8UTwoIlhHgZ7lTJ6-wlHlRshIRuOC0nE6frfSwG">
+        <p>Bot Username:</p><input type="text" id="username" placeholder="Type the Username of the Webhook here * OPTIONAL" value="Skaryey">
+        <p>Avatar URL:</p><input type="text" id="avatar" placeholder="Image URL">
+        <p>Content:</p><input type="text" id="content" placeholder="Type the Content of the Webhook here">
+        <br>
+        <button id="btn">Send</button>
+        <center>
+       <!--JS log in the works atm-->
+        <p id='log'></p>
+      </center>
+    </div>
+  </div> 
+  </div>
+  <div id="footer">
+    Copyright &copy; <a href="http://github.com/Endternvl/">Zua</a>
+  </div>
+ <script src="jquery.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
