@@ -1,4 +1,4 @@
-# webhook
+# Webhook Sender
 Simple Discord Webhook Sender By Skaryey
 
 ## How To Use?
