@@ -2,7 +2,7 @@
 Simple Discord Webhook Sender By Skaryey
 
 ## How To Use?
-First, [CLICK ME](https://endtervl.github.io/websend)
+First, [CLICK ME](https://endternvl.github.io/websend)
 Then Fill Like What You Want! It's Simple As You Drink!
 
 ## Self Host
